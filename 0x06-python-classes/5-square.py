@@ -1,15 +1,16 @@
 #!/usr/bin/python3
-
 """
-
 Square Class: Printing a square with #
-
 """
+
+
 class Square:
     """ class Square that defines a square """
+
     def __init__(self, size=0):
         """ Initialize attributes"""
-        self.size = size
+        sielf.size = size
+
     @property
     def size(self):
         """ gets the size"""
