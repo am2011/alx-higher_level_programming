@@ -87,6 +87,7 @@ class Rectangle:
         wid = str(self.__width)
         hei = str(self.__height)
         return "Rectangle(" + wid + ", " + hei + ")"
+
     def __del__(self):
         """ (destruct) Detect when an instance of Rectangle is deleted
         and print a message """
