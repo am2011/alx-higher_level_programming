@@ -6,4 +6,4 @@ def pascal_triangle(n):
     """function return pascal triangle"""
     if n < 0:
         return []
-    return [[(11 ** i) for i in range(n)]]
+    return [[(11 ** i)] for i in range(n)]
