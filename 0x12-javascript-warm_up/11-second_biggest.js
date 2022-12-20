@@ -5,5 +5,5 @@ const argsInt = args.map(s => parseInt(s));
 if (args.length === 0 || args.length === 1) {
   console.log(0);
 } else {
-  console.log(argsInt.sort().reverse()[1]);
+  console.log(argsInt.sort(function(a, b){return (a -b)}).reverse()[1]);
 }
