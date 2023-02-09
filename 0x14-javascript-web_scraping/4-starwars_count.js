@@ -16,7 +16,7 @@ req(requestURL, function (error, response, body) {
     for (let i = 0; i < listFilms.length; i++) {
       for (let j = 0; j < listFilms[i].characters.length; j++) {
         if (listFilms[i].characters[j].includes('/18/')) {
-          count ++;
+          count++;
         }
       }
     }
