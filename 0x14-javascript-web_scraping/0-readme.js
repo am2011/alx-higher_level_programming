@@ -10,6 +10,6 @@ fs.readFile(arg[2], 'utf8', function (err, data) {
 if (err) {
 console.log(err);
 } else {
-console.log(data.toString());
+process.stdout.write(data);
 }
 });
